@@ -2,12 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 const Header = () => (
-  <div
-    style={{
-      background: 'rebeccapurple',
-      marginBottom: '1.45rem',
-    }}
-  >
+  <div>
     <div
       style={{
         margin: '0 auto',
@@ -23,7 +18,7 @@ const Header = () => (
             textDecoration: 'none',
           }}
         >
-          Gatsby
+          Game Knight
         </Link>
       </h1>
     </div>
