@@ -26,28 +26,25 @@ const Status = styled.div`
   color: white;
 `;
 
-const FbButton = styled.button`
-  padding: 15px;
-  border-radius: 5px;
+const FbLink = styled.a`
+  width: 200px;
   color: white;
-  background-color: hsla(0, 0%, 0%, .1);
-  /* background-color: darkgray; */
   text-decoration: none;
+  padding: 20px;
+  border-radius: 5px;
   border: 1px solid white;
+  background-color: hsla(0, 0%, 0%, .1);
+  text-decoration: none;
+  transition: all 350ms;
 
   &:hover {
     background-color: white;
     color: hsla(0, 0%, 2%, .8);
   }
-`;
 
-const ButtonCopy = styled.p`
-  margin-bottom: 0;
-  display: grid;
-  grid-template-rows: 1fr;
-  align-content: center;
-  color: white;
-  text-decoration: none;
+  &:active {
+    background-color: hsla(200, 20%, 70%, .8);
+  }
 `;
 
 const IndexPage = () => (
@@ -58,10 +55,11 @@ const IndexPage = () => (
       <p><b>When?</b></p>
       <p>Thursday 3/22, 6:30pm-11:30pm</p>
       <p><b>Where?</b></p>
-      <p>121 NE Buffalo St.</p>
-      <FbButton>
-        <Link style={{textDecoration: 'none'}}to="https://www.facebook.com/groups/1729528793760175/"><ButtonCopy>Facebook group</ButtonCopy></Link>
-    </FbButton>
+      {/* <p>121 NE Buffalo St.</p> */}
+      <p style={{marginBottom: '50px'}}>1915 NE 56th ave.</p>
+      <FbLink href="https://www.facebook.com/groups/1729528793760175/" target="_blank">
+        Facebook group
+      </FbLink>
     </Status>
     {/* <Link to="/page-2/">Go to page 2</Link> */}
   </StatusWrapper>
