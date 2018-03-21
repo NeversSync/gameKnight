@@ -13,7 +13,7 @@ const StatusWrapper = styled.div`
   /* background: hsla(0, 0%, 9%, .7); */
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center; 
+  background-position: center right; 
   `;
 
 const Status = styled.div`
