@@ -55,8 +55,8 @@ const IndexPage = () => (
       <p><b>When?</b></p>
       <p>Thursday 3/22, 6:30pm-11:30pm</p>
       <p><b>Where?</b></p>
-      {/* <p>121 NE Buffalo St.</p> */}
-      <p style={{marginBottom: '50px'}}>1915 NE 56th ave.</p>
+      {/* <p style={{marginBottom: '50px'}}>1915 NE 56th ave.</p> */}
+      <p style={{marginBottom: '50px'}}>121 NE Buffalo St.</p>
       <FbLink href="https://www.facebook.com/groups/1729528793760175/" target="_blank">
         Facebook group
       </FbLink>
