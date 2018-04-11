@@ -53,7 +53,7 @@ const IndexPage = () => (
       <h1>Is Game Knight happening this week?</h1>
       <p>Yes, Game Knight lives</p>
       <p><b>When?</b></p>
-      <p>Thursday 3/22, 6:30pm-11:30pm</p>
+      <p>Thursday 4/12, 6:30pm-11:30pm</p>
       <p><b>Where?</b></p>
       {/* <p style={{marginBottom: '50px'}}>1915 NE 56th ave.</p> */}
       <p style={{marginBottom: '50px'}}>121 NE Buffalo St.</p>
