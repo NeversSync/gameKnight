@@ -52,6 +52,8 @@ const IndexPage = () => (
     <Status>
       <h1>Is Game Knight happening this week?</h1>
       {/* <p>It is super vague right now. Check the facebook group.</p> */}
+
+      baas
       <p>Yes!</p>
       {/* <p>Nope</p> */}
       <p><b>When?</b></p>
